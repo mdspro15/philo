@@ -3,6 +3,7 @@ The dining philosophers problem is a famous problem in computer science used to 
 For this project we must learn abour concurrent programming and find solution to solve this problem using threads and mutex for mandatory part.<br>
 
 # General rules
+We must keep all philosophers alive, avoid starvation and deadlock.<br>
 + One or more philosophers sit at round table.
 + There is a large bowl of spaghetti in the middle of table.
 + The spaghetti can only be taken with two forks.
@@ -11,7 +12,6 @@ For this project we must learn abour concurrent programming and find solution to
 + If a philosopher hasn't eaten in a certain timeframe, he will die.
 + Philosphers cannot communicate with each other.
 
-We must keep all philosophers alive, avoid starvation and deadlock.<br>
 This program must take some parameters.
 + **number_of_philosophers** : a number of philosophers and forks.
 + **time_to_die** : a number representing the time in milliseconds a philosopher has to live after a meal. If a philosopher hasn’t started eating time_to_die milliseconds after the beginning of his last meal or the beginning of the simulation, he will die.
