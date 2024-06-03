@@ -13,8 +13,8 @@ For this project we must learn abour concurrent programming and find solution to
 
 We must keep all philosophers alive, avoid starvation and deadlock.<br>
 This program must take some parameters.
-+ ```**number_of_philosophers**``` : a number of philosophers and forks.
-+ ```**time_to_die**``` : a number representing the time in milliseconds a philosopher has to live after a meal. If a philosopher hasn’t started eating time_to_die milliseconds after the beginning of his last meal or the beginning of the simulation, he will die.
++ **number_of_philosophers** : a number of philosophers and forks.
++ **time_to_die** : a number representing the time in milliseconds a philosopher has to live after a meal. If a philosopher hasn’t started eating time_to_die milliseconds after the beginning of his last meal or the beginning of the simulation, he will die.
 + **time_to_eat** : a number representing the time in milliseconds a philosopher takes to finish his meal. During that time, the philosopher keeps his two forks in hand.
 + **time_to_sleep** : the time in milliseconds that a philosopher spends sleeping.
 + **number_of_times_each_philosopher_must_eat(optional)** : an optional argument that allows the program to stop if all the philosophers have eaten at least that many times. If this argument is not specified, the simulation carries on unless a philosopher dies.
