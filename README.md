@@ -12,3 +12,9 @@ For this project we must learn abour concurrent programming and find solution to
 + Philosphers cannot communicate with each other.
 
 We must keep all philosophers alive, avoid starvation and deadlock.<br>
+This program must take some parameters.
++ number_of_philosophers
++ time_to_die
++ time_to_eat
++ time_to_sleep
++ number_of_times_each_philosopher_must_eat
