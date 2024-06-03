@@ -9,3 +9,5 @@ For this project we must learn abour concurrent programming and find solution to
 + Each philosopher eats, sleeps, and thinks.
 + If a philosopher hasn't eaten in a certain timeframe, he will die.
 + Philosphers cannot communicate with each other.
+
+We must keep all philosophers alive, avoid starvation and deadlock.<br>
