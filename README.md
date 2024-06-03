@@ -13,7 +13,7 @@ For this project we must learn abour concurrent programming and find solution to
 
 We must keep all philosophers alive, avoid starvation and deadlock.<br>
 This program must take some parameters.
-+ **number_of_philosophers**
++ **number_of_philosophers** : A number of philosophers and forks.
 + **time_to_die**
 + **time_to_eat**
 + **time_to_sleep**
