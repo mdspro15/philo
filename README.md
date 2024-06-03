@@ -20,9 +20,10 @@ This program must take some parameters.
 + **number_of_times_each_philosopher_must_eat(optional)** : an optional argument that allows the program to stop if all the philosophers have eaten at least that many times. If this argument is not specified, the simulation carries on unless a philosopher dies.
 
 The programs outputs a message each time a philosopher takes an action, which is formatted this way <br>
-
+```
 [timestamp_in_ms] [X] has taken a fork <br>
 [timestamp_in_ms] [X] is eating <br>
 [timestamp_in_ms] [X] is sleeping <br>
 [timestamp_in_ms] [X] is thinking <br>
 [timestamp_in_ms] [X] died <br>
+```
